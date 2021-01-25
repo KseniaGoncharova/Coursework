@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="Coursework.TreeGroups"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Coursework"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="300">
+    <Grid>
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel x:FieldModifier="protected" x:Name="_groups" Orientation="Vertical" CanVerticallyScroll="True" Margin="0,0,0,0"/>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

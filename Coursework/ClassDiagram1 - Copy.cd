@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Coursework.App" Collapsed="true">
+    <Position X="34.5" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework.FileButton" BaseTypeListCollapsed="true">
+    <Position X="43.75" Y="12.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABBAgAAEAABAAAAAAgQQIAABAAEAQAAAEAAAA=</HashCode>
+      <FileName>View\FileButton.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.GroupFiles" BaseTypeListCollapsed="true">
+    <Position X="40.25" Y="12.75" Width="2.5" />
+    <NestedTypes>
+      <Delegate Name="Coursework.GroupFiles.SortTypeHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>View\GroupFiles.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AARIAQAJRAGAAAMAgAQxAQQCAIAAABAAAAAEQAAADAo=</HashCode>
+      <FileName>View\GroupFiles.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.Groups" BaseTypeListCollapsed="true">
+    <Position X="36.75" Y="12.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAEAAAAAQBCAAA=</HashCode>
+      <FileName>View\Groups.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="34.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAFZAAAkABAABAYAkgECAAAAABgkmIAIACAEAAFBAAg=</HashCode>
+      <FileName>View\Pages\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.TreeFileButton" BaseTypeListCollapsed="true">
+    <Position X="25" Y="12.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABBAgAAEAABAAAAAEgQQIAABAAAAQAAAEAAAA=</HashCode>
+      <FileName>View\TreeFileButton.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.TreeGroupFiles" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="12.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAQAJBAiAAAMABAQBAAQgQAIAABAAAAAEQAEARAg=</HashCode>
+      <FileName>View\TreeGroupFiles.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.TreeGroups" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="12.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAgAAAEAAAAAQBCAAA=</HashCode>
+      <FileName>View\TreeGroups.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.Model.FileDataUtils" Collapsed="true">
+    <Position X="2.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAIBAAAAACAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Model\FileDataUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework.Model.GroupDataUtils" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIABAEAAAAAAAAgAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\GroupDataUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework.Model.TagDataUtils" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgIAAAAAEAACAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Model\TagDataUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IconUtilities" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\IconUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework.View.Pages.AddOrEditFileWindow" BaseTypeListCollapsed="true">
+    <Position X="40" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CFACgACAAARAAAAAEBACAQAAAQAAAEYABAAQAAEAAAA=</HashCode>
+      <FileName>View\Pages\AddOrEditFileWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.View.Pages.AddOrEditGroupWindow" BaseTypeListCollapsed="true">
+    <Position X="29" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CFACgAIAAAQAAAAAEAAAAQAAAQAAAAIABAAQAAEAAAA=</HashCode>
+      <FileName>View\Pages\AddOrEditGroupWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.View.Pages.ComboBoxItemGroup" BaseTypeListCollapsed="true">
+    <Position X="43.5" Y="9.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABBAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Pages\ComboBoxItemGroup.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.View.Pages.CustomMessageBox" BaseTypeListCollapsed="true">
+    <Position X="29" Y="8.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CFAAAAAAAAQAAAAAEAAAAAAAAQAEAAIAAAAAAAEAAAA=</HashCode>
+      <FileName>View\Pages\CustomMessageBox.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.View.Pages.SelectOrAddTagWindow" BaseTypeListCollapsed="true">
+    <Position X="43.5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIQAQAAAABEBIAAAAAAACFAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>View\Pages\SelectOrAddTagWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.View.PlaceholderTextBox" BaseTypeListCollapsed="true">
+    <Position X="40" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAABAAACAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\PlaceholderTextBox.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.View.SelectTag" BaseTypeListCollapsed="true">
+    <Position X="47" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAABBAAAEAAAAAAAAASAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\SelectTag.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Coursework.View.TagButton" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="12.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAABBAAAEAAAAAAAAASAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\TagButton.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="Coursework.FileData">
+    <Position X="5.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAEQAAIAgAEAABAAMAAAAQSAAAkAAABAAAABBAAA=</HashCode>
+      <FileName>Model\FileData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Coursework.GroupData">
+    <Position X="5.25" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\GroupData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Coursework.TagData">
+    <Position X="3.25" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\TagData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Coursework.SortType">
+    <Position X="0.5" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAA=</HashCode>
+      <FileName>Model\SortType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

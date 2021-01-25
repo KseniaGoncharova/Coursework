@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="Coursework.FileShortcut"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Coursework"
+             mc:Ignorable="d" Height="235" Width="315">
+    <Grid>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock  x:FieldModifier="private" x:Name="_lastAccessedTime" Grid.Row="0" Text="4 нед. назад" 
+                    Foreground="White" FontSize="12" Opacity="0.7"
+                    Margin="0,0,0,4" VerticalAlignment="Center"/>
+
+        <Button x:FieldModifier="private" x:Name="_runButton" Grid.Row="1" Grid.RowSpan="3" Background="Transparent" BorderBrush="{x:Null}" Click="_runButton_OnClick" />
+        <Grid Grid.Row="1" >
+
+            <Image x:FieldModifier="private" x:Name="_icon"/>
+        </Grid>
+        <Grid Grid.Row="3" HorizontalAlignment="Left">
+            <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,4" >
+                <Image x:FieldModifier="private" x:Name="_fileIcon" Height="24" Width="24"/>
+                <TextBlock  x:FieldModifier="private" x:Name="_fileName" Grid.Row="2" Text="File Shortcut" Foreground="White" FontSize="18"
+                            Margin="4,0" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>
